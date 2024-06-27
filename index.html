@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/addons/p5.sound.min.js"></script>
+    <script src="https://unpkg.com/hydra-synth"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <main>
+    </main>
+
+    <canvas id="hydraCanvas"></canvas>
+    <script src="sketch.js"></script>
+
+    <div class="instructions">
+      <p>Press top and bottom arrows to select a mode.</p>
+      <p>Jump on left and right arrows simultaneously to start the game.</p>
+    </div>
+
+    <div class="chooseModeWidget">
+      <!-- <div class="mode" id="campermode">
+        <img id="star" src="assets/star.svg">
+        <p>camper mode</p>
+      </div> -->
+      <div class="mode" id="normalmode">
+        <img id="star" src="assets/star.svg">
+        <p>actual normal mode</p>
+      </div>
+      <div class="mode" id="raymode">
+        <p>hyperpop mode</p>
+      </div>
+      <div class="mode" id="catmode">
+        <p>cat mode</p>
+      </div>
+      <div class="mode" id="alicemode">
+        <p>alice mode</p>
+      </div>
+    </div>
+
+    <script src="choosemode.js"></script>
+
+  </body>
+</html>

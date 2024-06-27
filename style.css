@@ -1,0 +1,54 @@
+@font-face {
+  font-family: arcadeFont;
+  src: url(assets/PressStart2P-vaV7.ttf);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: arcadeFont;
+    font-size: 36px;
+  }
+
+  canvas {
+    display: block;
+  }
+
+  .instructions {
+    position: absolute;
+    background-color: white;
+    color: black;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 15%;
+    padding: 1% 2%;
+    font-size: 20px;
+    font-family:'Proxima Nova';
+  }
+
+  .chooseModeWidget {
+    position: absolute;
+    color: white;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    padding: 1% 2%;
+  }
+
+  .chooseModeWidget div {
+    display: flex;
+    align-items: center;
+  }
+
+  .chooseModeWidget p, .chooseModeWidget img {
+    display: inline-block;
+  }
+
+  .chooseModeWidget img {
+    width: 70px;
+    height: auto;
+    padding-right: 5%;
+  }
+  
